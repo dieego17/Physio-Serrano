@@ -1,0 +1,41 @@
+/* HEADER */
+.header{
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid #d4d4d4d9;
+}
+.header__nav{
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.container__nav, .container__ul, .header__nav{
+    display: flex;
+    background-color: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+/* DIV DE LA IMAGÉN Y EL TEXTO */
+.header__img{
+    width: 100px;
+}
+.header__link{
+    text-decoration: none;
+    color: #180000;
+}
+
+/* MENÚ */
+.nav-item{
+    padding: 0px 5px;
+}
+/* BOTÓN CITAS */
+.nav-link__cita{
+    background-color: #D28C15;
+    border-radius: 10px;
+    width: 115px;
+    margin: 0px 10px;
+}

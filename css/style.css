@@ -1,0 +1,9 @@
+body{
+    background-color: #d4d4d4d9;
+}
+.contenedor{
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+}
