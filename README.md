@@ -1,6 +1,6 @@
 # Página Web para Clínica de Fisioterapia
 
-Este proyecto consiste en el desarrollo de una página web destinada a representar una clínica de fisioterapia. Se emplean tecnologías como HTML, CSS, JavaScript y Bootstrap para crear una plataforma virtual que simula los servicios y la información que podría ofrecer una clínica de fisioterapia.
+Este proyecto consiste en el desarrollo de una página web destinada a una clínica de fisioterapia. Se emplean tecnologías como HTML, CSS, JavaScript y Bootstrap para crear una plataforma virtual que simula los servicios y la información que podría ofrecer una clínica de fisioterapia.
 
 ## Tecnologías Utilizadas
 
