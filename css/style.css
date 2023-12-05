@@ -1,6 +1,58 @@
+@font-face {
+    font-family: fnmedium;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: fnlight;
+    src: url(../assets/fonts/Poppins-Light.ttf);
+}
+
 body{
     background-color: #d4d4d4d9;
 }
+
+/* IMAGEN INICIO */
+.div__inicio{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/clinica_fisio.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.contenedor__texto{
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 320px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inicio__h1{
+    color: #ffffff;
+    font-family: fnmedium;
+    font-size: 3.5rem
+}
+.inicio__h2{
+    color: #ffffff;
+    font-family: fnmedium;
+}
+.inicio__link{
+    margin: 10px 0px;
+    background-color: #D28C15;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* CONTENEDOR */
 .contenedor{
     max-width: 1400px;
     width: 100%;

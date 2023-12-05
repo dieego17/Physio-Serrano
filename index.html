@@ -4,99 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INICIO - PHYSIORUBIO</title>
+    <!-- IMAGEN TITULO -->
     <link rel="shortcut icon" href="./assets/images/titulo.png" type="image/x-icon">
     <!-- LINK BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- LINK CSS HEADER -->
     <link rel="stylesheet" href="./css/header.css">
+    <!-- link para favicons -->
+    <script src="https://kit.fontawesome.com/3ed6284a33.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
-        <nav class="header__nav navbar navbar-expand-lg">
-            <div class="container-fluid container__nav">
-                <!-- CONTAINER IMAGEN Y TEXTO -->
-                <div class="contianer__img">
-                    <a class="header__link" href="./index.html">
-                        <img class="header__img" src="./assets/images/titulo.png" alt="">
-                        <p class="header__link">Clínica Serrano</p>
-                    </a>
-                </div>
-                <!-- BOTÓN HAMBURGUESA -->
+        <nav class="header__nav navbar navbar-expand-lg ">
+            <div class="container contenedor__nav">
+                <a class="navbar-brand" href="#">
+                    <img class="header__img" src="./assets/images/titulo.png" alt="">
+                    <p class="header__link">Clínica Serrano</p>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <!-- CONTAINER MENÚ -->
-                <div class="container__ul collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="contenedor__ul collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Equipo
+                            EQUIPO
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">José María Alcázar</a></li>
                                 <li><a class="dropdown-item" href="#">Diego Rubio</a></li>
                                 <li><a class="dropdown-item" href="#">Alejandro Alcázar</a></li>
-                                <li><a class="dropdown-item" href="#">Guillermo Serrano</a></li>
+                                <li><a class="dropdown-item dropdown-item__none" href="#">Guillermo Serrano</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Terapias
+                            TERAPIAS
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Fiisio Deportiva</a></li>
+                                <li><a class="dropdown-item" href="#">Fisio Deportiva</a></li>
                                 <li><a class="dropdown-item" href="#">Punción Seca</a></li>
                                 <li><a class="dropdown-item" href="#">Terapia Manual</a></li>
                                 <li><a class="dropdown-item" href="#">F. Neurológica</a></li>
                                 <li><a class="dropdown-item" href="#">Presoterapia</a></li>
-                                <li><a class="dropdown-item" href="#">Aseguradoras / Mutuas</a></li>
+                                <li><a class="dropdown-item dropdown-item__none" href="#">Aseguradoras / Mutuas</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Patologías
+                            PATOLOGÍAS
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Roturas</a></li>
                                 <li><a class="dropdown-item" href="#">Escoliosis</a></li>
                                 <li><a class="dropdown-item" href="#">Esguinces</a></li>
                                 <li><a class="dropdown-item" href="#">Lig. Cruzados</a></li>
-                                <li><a class="dropdown-item" href="#">Artrosis</a></li>
+                                <li><a class="dropdown-item dropdown-item__none" href="#">Artrosis</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Dudas</a>
+                            <a class="nav-link active" aria-current="page" href="#">DUDAS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                            <a class="nav-link active" aria-current="page" href="#">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active nav-link__cita" aria-current="page" href="#">Pide Cita</a>
+                            <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
                         </li>
                     </ul>
+                    <div class="contenedor__icon">
+                        <i class="div__icon fa-regular fa-user"></i>
+                        <i class="div__icon fa-solid fa-magnifying-glass"></i>
+                    </div>
                 </div>
             </div>
-          </nav>
+        </nav>
     </header>
-    <div class="contenedor">
-        
-        <main class="main">
-
-        </main>
-        <footer class="footer">
-
-        </footer>
+    <div class="div__inicio">
+        <div class="contenedor__texto">
+            <h1 class="inicio__h1">Clínica Serrano</h1>
+            <h2 class="inicio__h2">Fisioterapia Herrera del Duque</h2>
+            <a class="inicio__link" href="#">Pide Cita</a>
+        </div>
     </div>
+    <main class="main">
+
+    </main>
+    <footer class="footer">
+
+    </footer>
     <!-- LINK BOOTSTRAP JS -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- LINK JS -->
     <script src="./js/script.js"></script>
 </body>
