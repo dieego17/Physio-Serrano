@@ -1,0 +1,49 @@
+@font-face {
+    font-family: fnmedium;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: fnlight;
+    src: url(../assets/fonts/Poppins-Light.ttf);
+}
+
+.footer{
+    background-color: #18A1B0;
+}
+
+.container__list{
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    text-align: center;
+    padding: 20px 0px 0px;
+}
+.section__list{
+    border-bottom: 1px solid #ffffff;
+}
+.footer__list{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.footer__link{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: fnlight;
+}
+.footer__link:hover{
+    text-decoration: underline;
+}
+
+.section__rrss{
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    padding: 20px 0px 20px 30px;
+}
+.rrss__icon{
+    padding: 0px 5px;
+    font-size: 1.5rem;
+    color: #ffffff;
+}

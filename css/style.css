@@ -8,17 +8,19 @@
 }
 
 body{
-    background-color: #d4d4d4d9;
+    background-color: #ffffff;
 }
 
 /* IMAGEN INICIO */
 .div__inicio{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/clinica_fisio.jpg);
     background-repeat: no-repeat;
-	background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+    position: relative;
+
     height: 700px;
     width: 100%;
-    position: relative;
 }
 
 .contenedor__texto{
@@ -50,12 +52,112 @@ body{
     padding: 10px 30px;
     border-radius: 5px;
     font-size: 1.2rem;
+    transition: all 1s ease;
+    font-family: fnlight;
+}
+.inicio__link:hover{
+    background-color: #a37017;
 }
 
 /* CONTENEDOR */
-.contenedor{
+.main{
     max-width: 1400px;
     width: 100%;
     min-width: 400px;
     margin: 0 auto;
+}
+
+
+/* INFORMACIÓN */
+.section__info{
+    margin: 50px 0px;
+}
+.article__info{
+    margin: 10px 0px;
+}
+.info__icon{
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #18A1B0;
+    padding: 15px;
+    border-radius: 180px;
+    margin: 10px 0px;
+}
+.info__h3{
+    font-family: fnmedium;
+    font-size: 1.5rem;
+    color: #18A1B0;
+}
+.info__text{
+    font-family: fnlight;
+    color: #000;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+.info__boton{
+    border: 1px solid #18A1B0;
+    text-decoration: none;
+    color: #18A1B0;
+    font-family: fnlight;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.info__boton:hover{
+    background-color: #18A1B0;
+    color: #ffffff;
+}
+
+/* TESTIMONIOS */
+.container__testimonio{
+    text-align: center;
+    margin: 40px 0px;
+}
+.testimonio__h3{
+    font-family: fnmedium;
+    color: #18A1B0;
+}
+.testimonio__google{
+    width: 100px;
+}
+.testimonio__h4{
+    padding: 10px 0px 0px;
+    font-family: fnmedium;
+    color: #18A1B0;
+}
+.testimonio__text{
+    font-family: fnlight;
+}
+.testi__icon{
+    color: #F6BB06;
+    font-size: 1.2rem;
+}
+/* CARROUSEL */
+.article__carousel{
+    margin: 30px 0px;
+    text-align: center;
+}
+.carousel__img{
+    width: 1000px;
+}
+.carousel-control-next-icon{
+    color: #000;
+}
+.article__boton{
+    margin: 10px 0px;
+}
+.testimonios__boton{
+    background-color: #F6BB06;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: fnlight;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 1px solid #F6BB06;
+    transition: all 1s ease;
+}
+.testimonios__boton:hover{
+    background-color: #ffffff;
+    color: #F6BB06;
 }
