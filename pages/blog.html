@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- LINK CSS -->
-    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/blog.css">
     <!-- LINK CSS HEADER -->
     <link rel="stylesheet" href="../css/header.css">
     <!-- LINK FOOTER -->
@@ -75,7 +75,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../pages/blog.html">BLOG</a>
+                            <a class="nav-link active" aria-current="page" href="#">BLOG</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../pages/contacto.html">CONTACTO</a>
@@ -94,115 +94,58 @@
 
     <!-- MAIN -->
     <main id="menu" class="main">
-        <section class="container__info">
-            <h2 class="info__h2">Información de contacto</h2>
-            <div class="div__info row">
-                <article class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <i class="info__icon fa-solid fa-mobile"></i>
-                    <h3 class="info__h3">Llámanos</h3>
-                    <p class="info__text">924 879 564</p>
-                    <p class="info__text">698 589 478</p>
-                </article>
-                <article class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <i class="info__icon fa-solid fa-envelope"></i>
-                    <h3 class="info__h3">Email</h3>
-                    <p class="info__text">contacto@clinicaserrano.es</p>
-                </article>
-                <article class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <i class="info__icon fa-solid fa-location-dot"></i>
-                    <h3 class="info__h3">Clínica</h3>
-                    <p class="info__text">Avenida de la Palmera, nº 27</p>
-                    <p class="info__text">06670 Herrera del Duque - España</p>
-                </article>
-                <article class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <i class="info__icon fa-solid fa-clock"></i>
-                    <h3 class="info__h3">Horario</h3>
-                    <p class="info__text">De lunes a viernes: 09:00 / 21:00</p>
-                    <p class="info__text">Sábados: 10:00 / 14:00</p>
-                </article>
-            </div>
-        </section>
-        <section class="section__mapa row">
-            <h2 class="info__h2 info__h2--mapa">¿Dónde puedes encontrarnos?</h2>
-            <iframe class="mapa__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12372.913530896289!2d-5.054864188009681!3d39.16952848608211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6b2b281c65b607%3A0xed372c9ab00922c!2sAv.%20la%20Palmera%2C%2027%2C%2006670%20Herrera%20del%20Duque%2C%20Badajoz!5e0!3m2!1ses!2ses!4v1701942220004!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-        <section class="section__form row">
-            <h2 class="info__h2 info__h2--mapa col-sm-12 col-md-12 col-lg-12 col-xl-12">Reserva tu cita con nostros</h2>
-            <article class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <form class="row g-3 needs-validation" novalidate>
-                    <div class="col-md-6">
-                      <label for="validationCustom01" class="form-label">Nombre</label>
-                      <input type="text" class="form-control form-control__form" id="validationCustom01" value="" required>
+        <section class="section__cards">
+            <article class="article__cards row d-flex justify-content-center">
+                <div class="card col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img src="../assets/images/fisio_deportiva.jpg" class="card__img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fisio Deportiva</h5>
+                      <p class="card-text">La fisioterapia deportiva permite que los deportistas vuelvan a su estado físico y mejoren su confianza.</p>
+                      <a href="#" class="btn btn__leer">Leer más <i class="fa-solid fa-angles-right"></i></a>
                     </div>
-                    <div class="col-md-6">
-                      <label for="validationCustom02" class="form-label">Teléfono</label>
-                      <input type="text" class="form-control form-control__form" id="validationCustom02" value="" required>
-                      <div class="invalid-feedback">
-                        Por favor, ponga un teléfono válido.
-                      </div>
+                </div>
+                <div class="card col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img src="../assets/images/f_neuro.png" class="card__img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">¿Qué es F.Neurologíca?</h5>
+                      <p class="card-text">La fisioterapia neurológica es la encargada de la rehabilitación de las alteraciones del Sistema Nervioso.</p>
+                      <a href="#" class="btn btn__leer">Leer más <i class="fa-solid fa-angles-right"></i></a>
                     </div>
-                    <div class="col-md-12">
-                      <label for="validationCustom03" class="form-label">Correo electrónico</label>
-                      <input type="text" class="form-control form-control__form" id="validationCustom03" required>
-                      <div class="invalid-feedback">
-                        Por favor, ponga un correo válido.
-                      </div>
+                </div>
+                <div class="card col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img src="../assets/images/ligamento.jpg" class="card__img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ligamento Cruzado</h5>
+                      <p class="card-text">El ligamento cruzado anterior , uno de los dos ligamentos que cruza por el medio de la rodilla.</p>
+                      <a href="#" class="btn btn__leer">Leer más <i class="fa-solid fa-angles-right"></i></a>
                     </div>
-                    <div class="col-md-12">
-                      <label for="validationCustom05" class="form-label">Servicio del que desea información</label>
-                      <input type="text" class="form-control form-control__form" id="validationCustom05" required>
-                    </div>
-                    <div class="col-md-12">
-                        <label for="validationCustom05" class="form-label">Mensaje</label>
-                        <textarea class="form-control form-control__form" id="validationCustom05" cols="30" rows="10" required></textarea>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                        <label class="form-check-label" for="invalidCheck">
-                            Declaro haber entendido la información facilitada y consiento el tratamiento que se efectuará de mis datos de carácter personal.
-                        </label>
-                        <div class="invalid-feedback">
-                          Revisa tu información.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button class="btn btn__sumit" type="submit">Enviar</button>
-                    </div>
-                  </form>
+                </div>
             </article>
-            <article class="article_acordeon col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Política de cancelación de citas
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Todos nuestros clientes, al ponerse en contacto y reservar cita con alguno de nuestros entrenadores/fisioterapeutas aceptan que: <br><br>
-                            La sesión ha de abonarse por anticipado o el mismo día de la consulta, inmediatamente después al tratamiento/entrenamiento recibido.<br><br>
-                            En caso de contratar un BONO, el importe del mismo se ha de abonar íntegramente antes de la primera sesión o inmediatamente al finalizar la primera sesión, sin posibilidad de aplazar o fragmentar el pago del mismo.<br><br>
-                            Las sesiones, en caso de no poder asistir, han de cancelarse con más de 24 horas de antelación.
-                        </div>
-                      </div>
+            <article class="article__cards row d-flex justify-content-center">
+                <div class="card col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img src="../assets/images/presoterapia.jpg" class="card__img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">¿Para qué sirve la presoterapia?</h5>
+                      <p class="card-text">se logra la sensación de un masaje con efectos de relajación y compresión suficientes para activar el sistema linfático.</p>
+                      <a href="#" class="btn btn__leer">Leer más <i class="fa-solid fa-angles-right"></i></a>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Pago de servicios
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Aceptamos las principales tarjetas de débito o crédito (Visa, MasterCard, American Express y Maestro) además de PayPal y efectivo. Es necesario que tu banco haya habilitado previamente tu tarjeta para pagos on-line.
-                        </div>
-                      </div>
+                </div>
+                <div class="card col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img src="../assets/images/puncion_seca.jpg" class="card__img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">¿Duele la punción seca?</h5>
+                      <p class="card-text">La punción seca genera dolor durante su realización, por lo que puede producir una sensibilización de la zona durante unas 48 horas. </p>
+                      <a href="#" class="btn btn__leer">Leer más <i class="fa-solid fa-angles-right"></i></a>
                     </div>
-                  </div>
+                </div>
+                <div class="card col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <img src="../assets/images/terapia_manual.jpg" class="card__img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Terapia Manual</h5>
+                      <p class="card-text">Las técnicas de Terapia Manual tienen como principales objetivos recuperar el movimiento cuando las articulaciones presentan una restricción en el mismo.</p>
+                      <a href="#" class="btn btn__leer">Leer más <i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
             </article>
         </section>
     </main>
