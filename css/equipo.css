@@ -1,0 +1,40 @@
+@font-face {
+    font-family: fnmedium;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: fnlight;
+    src: url(../assets/fonts/Poppins-Light.ttf);
+}
+
+.main{
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 180px 0px 20px;
+}
+.article__text{
+    text-align: center;
+}
+.article__h2{
+    font-family: fnmedium;
+    color: #18A1B0;
+}
+.article__p{
+    text-align: justify;
+    padding: 0px 200px;
+    font-family: fnlight;
+    color: #18A1B0;
+}
+
+/* EQUIPO IMAGENES */
+.artricle__img{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.img__equipo{
+    padding: 30px 30px;
+    width: 400px;
+}
