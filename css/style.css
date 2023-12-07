@@ -9,6 +9,7 @@
 
 body{
     background-color: #ffffff;
+    scroll-behavior: smooth;
 }
 
 /* IMAGEN INICIO */
@@ -18,11 +19,9 @@ body{
     background-size: 100%;
     background-attachment: fixed;
     position: relative;
-
     height: 700px;
     width: 100%;
 }
-
 .contenedor__texto{
     max-width: 1400px;
     width: 100%;
@@ -58,6 +57,42 @@ body{
 .inicio__link:hover{
     background-color: #a37017;
 }
+
+.div__inicio--peque{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/clinica_fisio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+.contenedor__texto--peque{
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inicio__h1--peque{
+    font-size: 2.5rem
+}
+.inicio__h2--peque{
+    font-size: 1.5rem
+}
+.inicio__link--peque{
+    margin: 10px 0px;
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+
+
+
 
 /* CONTENEDOR */
 .main{
@@ -140,6 +175,9 @@ body{
 .carousel__img{
     width: 1000px;
 }
+.carousel__img--peque{
+    width: 400px;
+}
 .carousel-control-next-icon{
     color: #000;
 }
@@ -160,4 +198,67 @@ body{
 .testimonios__boton:hover{
     background-color: #ffffff;
     color: #F6BB06;
+}
+
+/* ALERT */
+.alert__fixed{
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    left: 10px;
+    border: 1px solid #18A1B0;
+    width: 500px;
+}
+.article__botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cookies__h4{
+    font-family: fnmedium;
+    color: #18A1B0;
+    padding: 5px 0px 0px ;
+}
+.cookies__text{
+    font-family: fnlight;
+}
+.cookies__boton{
+    text-decoration: none;
+    border: 1px solid #18A1B0;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #18A1B0;
+}
+.cookies__boton:hover{
+    color: #1b7079;
+}
+.cookies__boton--azul{
+    background-color: #18A1B0;
+    color: #ffffff;
+}
+.cookies__boton--azul:hover{
+    background-color: #1b7079;
+    color: #ffffff;
+    border: 1px soli #1b7079;
+}
+
+.displayflex{
+    display: none;
+}
+
+.container__scroll{
+    position: fixed;
+    right: 15px;
+    position: fixed;
+    z-index: 5;
+    bottom: 20px;
+   
+}
+.link__scroll{
+    border: 1px solid #18A1B0;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #18A1B0;
+    border-radius: 5px;
+    text-decoration: none;
 }

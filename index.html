@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIO - PHYSIORUBIO</title>
+    <title>INICIO - CLÍNICA SERRANO</title>
     <!-- IMAGEN TITULO -->
     <link rel="shortcut icon" href="./assets/images/titulo.png" type="image/x-icon">
     <!-- LINK BOOTSTRAP CSS -->
@@ -19,9 +19,22 @@
     <script src="https://kit.fontawesome.com/3ed6284a33.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="container__scroll">
+        <a class="link__scroll" href="#menu"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <!-- ALERT -->
+    <div id="container__button" class="alert__fixed alert alert-light" role="alert">
+        <h4 class="cookies__h4">Valoramos tu privacidad</h4>
+        <p class="cookies__text">Usamos cookies para mejorar su experiencia de navegación, mostrarle anuncios o contenidos personalizados y analizar nuestro tráfico. Al hacer clic en “Aceptar todo” usted da su consentimiento a nuestro uso de las cookies.</p>
+        <article class="article__botones">
+            <a class="cookies__boton" href="#">Personalizar</a>
+            <a class="cookies__boton" href="#">Rechazar todo</a>
+            <a class="cookies__boton cookies__boton--azul" href="#">Aceptar todo</a>
+        </article>
+    </div>
     <!-- HEADER -->
     <header class="header">
-        <nav class="header__nav navbar navbar-expand-lg ">
+        <nav class="header__nav navbar navbar-expand-lg">
             <div class="container contenedor__nav">
                 <a class="navbar-brand" href="#">
                     <img class="header__img" src="./assets/images/titulo.png" alt="">
@@ -79,19 +92,29 @@
                         </li>
                     </ul>
                     <div class="contenedor__icon">
-                        <i class="div__icon fa-regular fa-user"></i>
-                        <i class="div__icon fa-solid fa-magnifying-glass"></i>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn__icon btn" type="submit"><i class="div__icon fa-solid fa-magnifying-glass"></i></button>
+                          </form>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <!-- IMAGEN Y TEXTO -->
-    <div class="div__inicio">
+    <div id="menu" class="div__inicio d-sm-none d-lg-block">
         <div class="contenedor__texto">
             <h1 class="inicio__h1">Clínica Serrano</h1>
             <h2 class="inicio__h2">Fisioterapia Herrera del Duque</h2>
             <a class="inicio__link" href="#">Pide Cita</a>
+        </div>
+    </div>
+    <!-- IMAGEN Y TEXTO -->
+    <div id="menu" class="div__inicio div__inicio--peque d-sm-block d-lg-none">
+        <div class="contenedor__texto contenedor__texto--peque">
+            <h1 class="inicio__h1 inicio__h1--peque">Clínica Serrano</h1>
+            <h2 class="inicio__h2 inicio__h2--peque">Fisioterapia Herrera del Duque</h2>
+            <a class="inicio__link inicio__link--peque" href="#">Pide Cita</a>
         </div>
     </div>
     <!-- MAIN -->
@@ -138,15 +161,31 @@
                     <p class="testimonio__text">A base de 500 reseñas</p>
                     <img class="testimonio__google" src="./assets/images/google_logo.svg" alt="">
                 </article>
-                <!-- CARRUSEL VALORACIONES -->
-                <article class="article__carousel col-12-sm col-md-12 col-lg-12 col-xl-12">
+                <!-- CARRUSEL VALORACIONES VISIBLE EN LG Y XL -->
+                <article class="article__carousel d-sm-none d-lg-block col-lg-12 col-xl-12">
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active" data-bs-interval="7000">
+                          <div class="carousel-item active" data-bs-interval="5000">
                             <img src="./assets/images/valoracion1.png" class="carousel__img d-block mx-auto" alt="...">
                           </div>
-                          <div class="carousel-item" data-bs-interval="7000">
+                          <div class="carousel-item" data-bs-interval="5000">
                             <img src="./assets/images/valoracion2.png" class="carousel__img d-block mx-auto" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- CARRUSEL VALORACIONES VISIBLE EN SM Y MD -->
+                <article class="article__carousel d-sm-block d-lg-none col-sm-12 col-md-12">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="./assets/images/valo1.png" class="carousel__img carousel__img--peque d-block mx-auto" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="./assets/images/valo2.png" class="carousel__img carousel__img--peque d-block mx-auto" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="./assets/images/valo3.png" class="carousel__img carousel__img--peque d-block mx-auto" alt="...">
                           </div>
                         </div>
                     </div>

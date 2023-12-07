@@ -33,6 +33,7 @@
 /* DIV DE LA IMAGÉN Y EL TEXTO */
 .header__img{
     width: 100px;
+    padding: 10px 0px;
 }
 .header__link{
     text-decoration: none;
@@ -83,4 +84,27 @@
 .div__icon:hover{
     color: #236168 !important;
     transform: scale(1.1);
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid #18A1B0;
+    outline: none;
+    color: #18A1B0;
+}
+.form-control:hover{
+    border: none;
+    border-bottom: 1px solid #18A1B0;
+    outline: none;
+    color: #18A1B0;
+}
+.form-control::placeholder{
+    outline: none;
+    color: #18A1B0;
+}
+.form-control:focus{
+    outline: none;
+    color: #18A1B0;
+}
+.btn__icon{
+    border: none;
 }
