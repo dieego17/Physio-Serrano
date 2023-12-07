@@ -1,0 +1,121 @@
+@font-face {
+    font-family: fnmedium;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: fnlight;
+    src: url(../assets/fonts/Poppins-Light.ttf);
+}
+.main{
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 180px 0px 20px;
+}
+.container__info{
+    margin: 0 auto;
+    background-color: #18a1b047;
+    border-radius: 5px;
+    padding: 100px 10px;
+}
+.info__h2{
+    text-align: center;
+    font-family: fnmedium;
+    color: #18A1B0;
+}
+.div__info{
+    text-align: center;
+    margin: 50px 0px 0px;
+}
+.info__h3{
+    font-family: fnmedium;
+    color: #18A1B0;
+}
+.info__text{
+    color: #18A1B0;
+    font-family: fnlight;
+    font-size: 0.8rem;
+}
+.info__icon{
+    background-color: #ffffff;
+    font-size: 1..8rem;
+    padding: 15px 20px;
+    margin: 0px 0px 10px;
+    border-radius: 100px;
+    color: #18A1B0;
+}
+
+/* MAPA */
+.section__mapa{
+    margin: 100px 0px 30px;
+}
+.info__h2--mapa{
+    padding: 0px 0px 10px;
+}
+.mapa__iframe{
+    margin: 0 auto;
+    width: 800px;
+}
+
+/* FORMULARIO */
+.section__form{
+    margin: 0 auto;
+    padding: 80px 0px 30px;
+}
+
+.form-label, .form-check-label{
+    font-family: fnmedium;
+    color: #18A1B0;
+}
+.form-control__form{
+    border: none;
+    border-bottom: 1px solid #18A1B0;
+    outline: none;
+    color: #18A1B0;
+    border-radius: 5px;
+    background-color: rgb(236, 235, 235);
+    font-family: fnlight;
+}
+.form-control__form:hover{
+    outline: none;
+    color: #18A1B0;
+    background-color: rgb(236, 235, 235);
+}
+.form-control__form::placeholder{
+    outline: none;
+    color: #18A1B0;
+}
+.form-control__form:focus{
+    outline: none;
+    color: #18A1B0;
+    background-color: rgb(236, 235, 235);
+}
+.btn__sumit{
+    background-color: #18A1B0;
+    border: 1px solid #18A1B0;
+    color: #ffffff;
+    font-family: fnlight;
+    width: 100px;
+}
+.btn__sumit:hover{
+    background-color: #ffffff;
+    color: #18A1B0;
+    border: 1px solid #18A1B0;
+    font-family: fnlight;
+    width: 100px;
+}
+
+/* ACORDEON */
+.article_acordeon{
+    margin: 30px 0px 0px;
+}
+.accordion-button{
+    background-color: #18A1B0;
+    color: #ffffff;
+    font-family: fnmedium;
+}
+.accordion-body{
+    font-family: fnlight;
+    color: #18A1B0;
+}

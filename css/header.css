@@ -7,6 +7,9 @@
     src: url(../assets/fonts/Poppins-Light.ttf);
 }
 
+body{
+    scroll-behavior: smooth;
+}
 /* HEADER */
 .header{
     background-color: #FFFFFF;
@@ -85,26 +88,43 @@
     color: #236168 !important;
     transform: scale(1.1);
 }
-.form-control{
+.form-control__header{
     border: none;
     border-bottom: 1px solid #18A1B0;
     outline: none;
     color: #18A1B0;
 }
-.form-control:hover{
+.form-control__header:hover{
     border: none;
     border-bottom: 1px solid #18A1B0;
     outline: none;
     color: #18A1B0;
 }
-.form-control::placeholder{
+.form-control__header::placeholder{
     outline: none;
     color: #18A1B0;
 }
-.form-control:focus{
+.form-control__header:focus{
     outline: none;
     color: #18A1B0;
 }
 .btn__icon{
     border: none;
+}
+
+.container__scroll{
+    position: fixed;
+    right: 15px;
+    position: fixed;
+    z-index: 5;
+    bottom: 20px;
+   
+}
+.link__scroll{
+    border: 1px solid #18A1B0;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #18A1B0;
+    border-radius: 5px;
+    text-decoration: none;
 }
