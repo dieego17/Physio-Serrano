@@ -7,7 +7,7 @@
     src: url(../assets/fonts/Poppins-Light.ttf);
 }
 
-.main{
+.section{
     max-width: 1400px;
     width: 100%;
     min-width: 400px;
@@ -33,8 +33,117 @@
     text-align: center;
     margin: 30px 0px;
 }
-
+.container__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .img__equipo{
-    padding: 30px 30px;
+    padding: 30px 10px;
     width: 400px;
+}
+.card__personas{
+    width: 380px;
+    position: relative;
+    margin: 0px 20px;
+}
+.equipo__images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* SLIDE NOMBRE */
+.slide{
+    background-color: #18A1B0;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px 0px 40px;
+    transition: transform  0.5s ease; 
+    transform: translateY(100%);
+    opacity: 0;
+    width: 100%;
+    padding: 10px 0px;
+}
+.card__personas:hover .slide{
+    transform: translateY(0);
+    opacity: 1;
+}
+.slide__title{
+    font-family: fnmedium;
+}
+.slide__text{
+    padding: 0px 10px;
+    font-family: fnlight;
+}
+
+/* SECTION CV */
+.serction__cv{
+    background-color: #18a1b095;
+    margin: 40px 0px;
+}
+.article__cv{
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+.cv__h3{
+    font-family: fnmedium;
+    color: #ffffff;
+    text-align: center;
+}
+.btn__modal{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #18A1B0;
+    font-family: fnlight;
+    margin: 10px 0px;
+    padding: 10px 40px;
+}
+.btn__modal:hover{
+    background-color: #ffffffcc;
+    border: 1px solid #ffffffcc;
+    color: #18A1B0;
+}
+.cv__h4, .modal-title{
+    font-family: fnmedium;
+    color: #18A1B0;
+}
+.input__file{
+    color: #18A1B0;
+    font-family: fnlight;
+}
+.btn__cerrar{
+    background-color: red;
+    color: #ffffff;
+    font-family: fnlight;
+    border: 1px solid red;
+}
+.btn__cerrar:hover{
+    background-color: #ffffff;
+    color: red;
+    font-family: fnlight;
+    border: 1px solid red;
+}
+
+.btn__guardar{
+    background-color: #18A1B0;
+    color: #ffffff;
+    font-family: fnlight;
+    border: 1px solid #18A1B0;
+}
+.btn__guardar:hover{
+    background-color: #ffffff;
+    color: #18A1B0;
+    font-family: fnlight;
+    border: 1px solid #18A1B0;
 }

@@ -95,6 +95,7 @@
 
     <!-- MAIN -->
     <main id="menu" class="main">
+        <!-- SECTION PARA MOSTRAR EL EQUIPO -->
         <section class="section">
             <article class="article__text">
                 <h2 class="article__h2">EQUIPO</h2>
@@ -103,15 +104,86 @@
                     Actualmente estamos buscando diferentes profesionales que quieran incorporarse a nuestro equipo para seguir creciendo. Buscamos personas con muchas ganas de aprender, evolucionar profesionalmente, e ilusión. 
                 </p>
             </article>
-            <article class="artricle__img row">
-                <div class="container__img">
-                    <img class="img__equipo col-12-sm col-md-12 col-lg-4 col-xl-4" src="../assets/images/primo1.jpeg" alt="">
-                    <img class="img__equipo col-12-sm col-md-12 col-lg-4 col-xl-4" src="../assets/images/primo2.jpeg" alt="">
-                    <img class="img__equipo col-12-sm col-md-12 col-lg-4 col-xl-4" src="../assets/images/primo3.jpeg" alt="">
+            <article class="artricle__img">
+                <div class="container__img row">
+                    <div class="card__personas col-12-sm col-md-12 col-lg-4 col-xl-4">
+                        <div class="equipo__images">
+                          <img class="img__equipo" src="../assets/images/primo1.jpeg" alt="">
+                        </div>
+                        <div class="slide">
+                          <h3 class="slide__title">José María Alcázar</h3>
+                          <p class="slide__text">Fisioterapeuta Nº 77 777</p>
+                        </div>
+                    </div>
+                    <div class="card__personas col-12-sm col-md-12 col-lg-4 col-xl-4">
+                        <div class="equipo__images">
+                          <img class="img__equipo" src="../assets/images/primo2.jpeg" alt="">
+                        </div>
+                        <div class="slide">
+                          <h3 class="slide__title">Diego Rubio</h3>
+                          <p class="slide__text">Fisioterapeuta Nº 99 999</p>
+                        </div>
+                    </div>
+                    <div class="card__personas col-12-sm col-md-12 col-lg-4 col-xl-4">
+                        <div class="equipo__images">
+                          <img class="img__equipo" src="../assets/images/primo3.jpeg" alt="">
+                        </div>
+                        <div class="slide">
+                          <h3 class="slide__title">Alejandro Alcázar</h3>
+                          <p class="slide__text">Fisioterapeuta Nº 23 456</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="container__img">
-                    <img class="img__equipo col-12-sm col-md-12 col-lg-6 col-xl-6" src="../assets/images/hermana.jpeg" alt="">
-                    <img class="img__equipo col-12-sm col-md-12 col-lg-6 col-xl-6" src="../assets/images/primo4.jpeg" alt="">
+                <div class="container__img row">
+                    <div class="card__personas col-12-sm col-md-12 col-lg-6 col-xl-6">
+                        <div class="equipo__images">
+                          <img class="img__equipo" src="../assets/images/hermana.jpeg" alt="">
+                        </div>
+                        <div class="slide">
+                          <h3 class="slide__title">Cristina Rubio</h3>
+                          <p class="slide__text">Fisioterapeuta Nº 56 897</p>
+                        </div>
+                    </div>
+                    <div class="card__personas col-12-sm col-md-12 col-lg-6 col-xl-6">
+                        <div class="equipo__images">
+                          <img class="img__equipo" src="../assets/images/primo4.jpeg" alt="">
+                        </div>
+                        <div class="slide">
+                          <h3 class="slide__title">Guillermo Serrano</h3>
+                          <p class="slide__text">Fisioterapeuta Nº 96 345</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- BOTON PARA MOSTRAR MODAL Y CV -->
+        <section class="serction__cv">
+            <article class="article__cv">
+                <h3 class="cv__h3">¿QUIERES TRABAJAR CON NOSOTROS?</h3>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn__modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Mándanos tu CV
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">CV y Carta de presentación</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="">
+                                    <input class="input__file" type="file" id="fileUpload" name="fileUpload">
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn__cerrar" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn__guardar">Guardar Cambios</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>
