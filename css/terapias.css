@@ -1,0 +1,111 @@
+@font-face {
+    font-family: fnmedium;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: fnlight;
+    src: url(../assets/fonts/Poppins-Light.ttf);
+}
+
+.main{
+    padding: 180px 0px 0px;
+}
+.h3__main{
+    text-align: center;
+    color: #18A1B0;
+    font-family: fnmedium;
+}
+.section__destacamos{
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 80px 0px 20px;
+}
+.article__destacamos{
+    margin: 10px 0px;
+}
+.destacamos__p{
+    font-family: fnlight;
+    color: #18A1B0;
+}
+.img__manual{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.div__link{
+    margin: 50px 0px;
+    text-align: center;
+}
+.link__destacamos{
+    text-decoration: none;
+    font-family: fnlight;
+    color: #ffffff;
+    border: 1px solid #18A1B0;
+    background-color: #18A1B0;
+    padding: 10px 20px;
+    margin: 40px 10px;
+    border-radius: 5px;
+}
+.link__destacamos:hover{
+    color: #ffffff;
+    border: 1px solid #18a1b0c2;
+    background-color: #18a1b0c2;
+}
+
+.section__equipo{
+    background-color: #18a1b09d;
+    margin: 40px 0px;
+}
+.article__equipo{
+    max-width: 1400px;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0px;
+}
+.h4___equipo{
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-family: fnmedium;
+    padding: 0px 0px 20px;
+}
+.strong{
+    font-size: 1.5rem;
+}
+.link__equipo{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #D28C15;
+    border: 1px solid #D28C15;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: fnlight;
+}
+.link__equipo:hover{
+    background-color: #8c6014;
+    border: 1px solid #8c6014;
+}
+.article__destacamos--link{
+    display: flex;
+    flex-direction: column;
+}
+.h4__link{
+    color: #18A1B0;
+    font-family: fnmedium;
+    padding: 0px 0px 20px;
+    text-align: center;
+
+}
+.destacamos__a{
+    color: #18A1B0;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    transition: all 0.5s ease;
+}
+.destacamos__a:hover{
+    transform: translateX(30px);
+}

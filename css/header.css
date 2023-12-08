@@ -15,6 +15,7 @@ body{
     background-color: #FFFFFF;
     position: fixed;
     width: 100%;
+    top: 0;
     border-bottom: 2px solid #d4d4d4d9;
     z-index: 99;
 }
