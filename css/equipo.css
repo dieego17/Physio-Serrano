@@ -6,7 +6,7 @@
     font-family: fnlight;
     src: url(../assets/fonts/Poppins-Light.ttf);
 }
-
+/* SECTION TITULO Y TEXTO */
 .section{
     max-width: 1400px;
     width: 100%;
@@ -83,7 +83,7 @@
     font-family: fnlight;
 }
 
-/* SECTION CV */
+/* SECTION MODAL CV */
 .serction__cv{
     background-color: #18a1b095;
     margin: 40px 0px;

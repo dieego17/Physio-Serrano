@@ -12,7 +12,7 @@ body{
     scroll-behavior: smooth;
 }
 
-/* IMAGEN INICIO */
+/* SECTION IMAGEN Y TEXTO INICIO */
 .div__inicio{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/clinica_fisio.jpg);
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@ body{
     color: #ffffff;
 }
 
-/* TESTIMONIOS */
+/* TESTIMONIOS CAROUSEL */
 .container__testimonio{
     text-align: center;
     margin: 40px 0px;
@@ -246,6 +246,7 @@ body{
     display: none;
 }
 
+/* FLECHA PARA SUBIR AL INICIO */
 .container__scroll{
     position: fixed;
     right: 15px;

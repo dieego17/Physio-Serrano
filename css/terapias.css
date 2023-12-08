@@ -10,11 +10,13 @@
 .main{
     padding: 180px 0px 0px;
 }
+/* TITULO */
 .h3__main{
     text-align: center;
     color: #18A1B0;
     font-family: fnmedium;
 }
+/* SECTION IMAGENES, VIDEOS Y TEXTO */
 .section__destacamos{
     max-width: 1400px;
     width: 100%;
@@ -54,6 +56,7 @@
     background-color: #18a1b0c2;
 }
 
+/* SECTION EQUIPO */
 .section__equipo{
     background-color: #18a1b09d;
     margin: 40px 0px;
